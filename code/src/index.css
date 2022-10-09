@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +9,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  place-items: center;
+  margin: 20px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-weight: 100;
+}
+
+
+.form {  
+  display: grid;
+  align-content: left;
+  align-items: left;
+  justify-items: left;
+  text-align: left;
+  border: solid;
+  margin-bottom: 25px;
+  box-shadow: 5px 10px;
+  background-color: rgb(240, 235, 236);
+}
+
+.thoughtCard {
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  border: solid;
+  text-align: left;
+  box-shadow: 5px 10px;
+  width: 500px;
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(230, 94, 128);
+}
+
+.input{
+  border: solid;
+  border-color: black;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.counter{
+  text-align: left;
+  padding-top: 20px;
+}
+
+.heart-icons{
+  padding: 10px;
+  background: lightgrey;
+}
+
+.time-stamp{
+  padding: 20px;
+  padding-left: 250px;
+  color: rgb(140, 136, 136);
 }
