@@ -6,3 +6,4 @@ Used Tailwind CSS and for more detailed styling CSS
 
 ## View it live
 
+https://maria-happy-thoughts-api-chat.netlify.app/
